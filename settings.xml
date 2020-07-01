@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="c52698e3-0abf-45d4-9c54-e97407232a96" created="3.2.7" activeEnvironment="Default environment" name="Ex for multiple-testcases" runType="PARALLELL" updated="3.2.7" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="c52698e3-0abf-45d4-9c54-e97407232a96fileName">Ex-for-multiple-testcases</con:setting>
+  </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>
   <con:properties/>
