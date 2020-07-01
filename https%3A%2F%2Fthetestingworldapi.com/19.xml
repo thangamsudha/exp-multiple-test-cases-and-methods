@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="19" path="/api/studentsDetails/19" id="11885936-093c-441f-b349-f1fb1ec96c9f" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="11885936-093c-441f-b349-f1fb1ec96c9ffileName">19</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="19" id="7ea13057-013c-45fd-bf23-531e12f7c3a2" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:ns="https://thetestingworldapi.com/api/studentsDetails/19">ns:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="6df42507-742c-48c8-8191-d44f6cfdfdd6" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://thetestingworldapi.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://thetestingworldapi.com/api/studentsDetails/19</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

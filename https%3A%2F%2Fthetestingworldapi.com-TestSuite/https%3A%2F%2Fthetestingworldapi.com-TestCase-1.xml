@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="b279dde0-aec4-40c4-be57-f0029a0568c7" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://thetestingworldapi.com TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b279dde0-aec4-40c4-be57-f0029a0568c7fileName">https%3A%2F%2Fthetestingworldapi.com-TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="42b1479b-65a7-40fe-8dd2-a78516cb7600">
+    <con:settings/>
+    <con:config service="https://thetestingworldapi.com" resourcePath="/api/studentsDetails" methodName="StudentsDetails" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="d6482cdf-e99c-4fb8-a8c0-750f6bedd808" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://thetestingworldapi.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://thetestingworldapi.com/api/studentsDetails</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="af73b3ed-9ffe-4e93-9c08-303605488426" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="8af156ee-9c50-4a25-bdbf-5baa9d23b5da" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
